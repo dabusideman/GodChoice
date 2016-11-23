@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/rl_home_root"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <FrameLayout
+            android:id="@+id/fl_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#fff">
+            <FrameLayout
+                android:id="@+id/fl_home_rightview"
+                android:layout_width="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/iv_home_rightview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                     />
+            </FrameLayout>
+
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/uucolor"
+                android:textSize="18sp"
+                android:id="@+id/tv_home_rightview"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="完成" />
+
+            <FrameLayout
+                android:id="@+id/fl_home_leftview"
+                android:layout_width="50dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/iv_home_leftview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topic_left_tile" />
+            </FrameLayout>
+
+
+
+            <TextView
+                android:id="@+id/tv_home_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="选择图片"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:id="@+id/line_ccc"
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_below="@+id/rl_home_root"
+        android:layout_height="1px"/>
+    <GridView
+        android:id="@+id/id_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipChildren="true"
+        android:gravity="center"
+        android:horizontalSpacing="3dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:layout_above="@+id/id_bottom_ly"
+        android:layout_below="@+id/line_ccc"
+        android:verticalSpacing="3dip" >
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/id_bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/uucolor"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/id_choose_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="所有图片"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/id_total_count"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="0张"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

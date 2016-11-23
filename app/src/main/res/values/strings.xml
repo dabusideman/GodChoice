@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">学长有货</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="error">数据加载失败！请稍后...</string>
+    <string name="load">正在加载数据，请稍候...</string>
+    <string name="no_data">连接失败,未获取到数据</string>
+    <string name="please_wait">正在加载数据，请稍候 ...</string>
+    <string name="pull_to_next">点击获取更多...</string>
+    <string name="pull_to_loading">正在加载...</string>
+    <string name="failure">数据加载失败，请稍后再试！</string>
+    <string name="no_connections">网络好像不给力哦，请稍候再试</string>
+    <string name="timeout_exit">长时间未操作，为您账号安全，已自动退出，请重新登录！</string>
+    <string name="btn_sure_text">确定</string>
+    <string name="btn_cancle">取消</string>
+    <string name="personalInformation">个人资料</string>
+    <string name="exit_app">再按一次退出程序</string>
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    <string name="picker_title">MuPDF</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching...</string>
+    <string name="link_control">Link highlighting and enabling</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">正在加载中\u2026</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="browse">浏览</string>
+    <string name="begin_trip">开始旅程</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <string name="pull_to_refresh_footer_label">松开加载更多...</string>
+    <string name="refresh_down_text">下拉刷新</string>
+    <string name="refresh_release_text">松开后刷新</string>
+
+    <string name="sign_out">退出话题后将不再接收此话题的最新消息</string>
+    <string name="trouble_free">开启免打扰后,将依然接收此对话消息，但不再提示</string>
+    <string name="open_wall">上墙后别人可以在“墙”上发现并进入</string>
+    <string name="close_wall">关闭上墙后别人将不能在“墙”上发现此话题</string>
+    <string name="delete_topic">将彻底删除此话题,无法找回,相应对话也会被删除</string>
+    <string name="shield">屏蔽后将不再收到对方在此话题中发来的消息</string>
+    <string name="user_end">你的角色数量已经用完,每个人最多可以使用5个角色</string>
+    <string name="delete_user">你确定要删除吗</string>
+
+    <string name="url_text">"http://uutome.com/"</string>
+    <string name="join_topic_show">在UU里，每个话题都有一个唯一的地址，输入地址即可进入话题聊天</string>
+    <string name="jpush_appkey">f07f214961d1aca2ee2545ba</string>
+
+
+    <string name="picture_num_limit_toast">你最多只能同时发送9张图片</string>
+    <string name="send">发送</string>
+</resources>
