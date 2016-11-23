@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#fff"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_preservation"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="保存到手机"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#7000"
+        />
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="取消"/>
+
+
+</LinearLayout>
